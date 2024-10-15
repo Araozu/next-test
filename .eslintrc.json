@@ -2,7 +2,7 @@
     "extends": [
         "next/core-web-vitals",
         "next/typescript",
-        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/strict",
         "prettier"
     ],
     "plugins": ["@typescript-eslint", "eslint-plugin-import-helpers"],
@@ -95,6 +95,7 @@
         "no-trailing-spaces": "error",
         "comma-style": "error",
         "radix": "error",
-        "no-new-wrappers": "error"
+        "no-new-wrappers": "error",
+        "camelcase": "error"
     }
 }
